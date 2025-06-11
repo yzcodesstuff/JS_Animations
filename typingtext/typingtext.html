@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Typing Animation</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    class="p1 p-8 bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-white"
+  >
+    <button
+      onclick="location.href='../index.html'"
+      class="h-10 w-64 bg-black mb-16 cursor-pointer"
+    >
+      Go Back to Projects
+    </button>
+
+    <div class="p-8 rounded-2xl bg-white dark:bg-gray-700">
+      <div class="flex flex-col items-start space-y-2 w-full">
+        <label for="name" class="text-sm font-medium text-gray-700"
+          >Your Name</label
+        >
+        <input
+          id="textInput"
+          type="text"
+          placeholder="Type something here..."
+          class="w-full border border-gray-300 rounded-md px-4 py-2"
+        />
+        <button
+          id="button"
+          class="mt-2 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+        >
+          Submit
+        </button>
+      </div>
+      <p class="text-2xl my-8 md:px-8 lg:px-20" id="typingText"></p>
+    </div>
+    <script src="typingtext.js"></script>
+  </body>
+</html>

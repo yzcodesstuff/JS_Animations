@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.177.0/build/three.module.js",
+        "three-addons": "https://cdn.jsdelivr.net/npm/three@0.177.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Three Animation</title>
+  </head>
+  <body style="margin: 0px">
+    <div class="absolute top-4 left-4 z-50 flex gap-2">
+      <button
+        onclick="location.href='../index.html'"
+        class="h-10 w-64 bg-white text-black mb-16 cursor-pointer rounded shadow-md hover:bg-gray-300 transition"
+      >
+        Go Back to Projects
+      </button>
+      <a
+      href="https://www.youtube.com/watch?v=YK1Sw_hnm58"
+      target="_blank"
+      >
+      <button
+        class="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded-md shadow hover:bg-blue-700 transition"
+      >
+        Watch Chris Courses Tutorial
+      </button>
+    </a>
+
+    </div>
+
+    <div id="app"></div>
+
+
+    <script type="module" src="simpleAnimatedBackground.js" defer></script>
+  </body>
+</html>

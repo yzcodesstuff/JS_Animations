@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" id="theme" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="output.css" rel="stylesheet" />
+    <title>YZ's JavaScript Animations</title>
+    <style>
+      .p1 {
+        font-family: "Monaco", "Courier New", monospace;
+      }
+    </style>
+  </head>
+
+  <body
+    class="h-screen p1 bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-white overflow-hidden"
+  >
+    <div
+      class="h-screen snap-y snap-mandatory overflow-y-scroll overflow-hidden"
+    >
+      <div class="h-screen snap-start p-8">
+        <div class="text-4xl flex my-4 justify-center border p-2">
+          YZ's JavaScript Animations
+        </div>
+        <div class = "mx-50">
+        <p class="text-2xl flex my-4 p-2">
+          Welcome to my JavaScript animations website. In this website, there
+          are different animations that I have made using JavaScript for various
+          purposes or even just for fun.
+        </p>
+        <p class="text-2xl flex my-4 p-2">
+          If you are interested to see more of my work, you can click on the
+          buttons below to either go to my portfolio website or my github page.
+        </p>
+        </div>
+        <div class="flex justify-evenly">
+          <a
+            class="border p-3 bg-white text-gray-800"
+            href="https://yzcodesstuff.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Portfolio Link</a
+          >
+          <a
+            class="border p-3 bg-white text-gray-800"
+            href="https://github.com/yzcodesstuff"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Animations Github Repo</a
+          >
+        </div>
+      </div>
+      <div class="h-screen snap-start p-8">
+        <div class="p-4 rounded-2xl bg-white dark:bg-gray-700">
+          <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            <a
+              class="flex-col space-y-2 p-2 rounded-xl bg-gray-200 dark:bg-gray-500 justify-center"
+              href="loadingbar/loadingbar.html"
+            >
+              <video autoplay loop src="videos/LoadingBar.mp4"></video>
+              <div class="flex-col p-6">
+                <div class="text-2xl">Loading Bar</div>
+                <div class="text-sm">A simple loading bar.</div>
+              </div>
+            </a>
+            <a
+              class="space-y-2 justify-center p-2 rounded-xl bg-gray-200 dark:bg-gray-500 flex-col"
+              href="typingtext/typingtext.html"
+            >
+              <video autoplay loop src="videos/TypingText.mp4"></video>
+              <div class="flex justify-between mt-2">
+                <div class="flex-col p-6">
+                  <div class="text-2xl">Typing Text</div>
+                  <div class="text-sm">
+                    Acts as though you are typing out the sentence.
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="space-y-2 justify-center p-2 rounded-xl bg-gray-200 dark:bg-gray-500 flex-col"
+              href="simpleAnimatedBackground/simpleAnimatedBackground.html"
+            >
+              <video autoplay loop src="videos/SimpleAnimatedBackground.mp4"></video>
+              <div class="flex justify-between mt-2">
+                <div class="flex-col p-6">
+                  <div class="text-2xl">Simple 3D Animated Background</div>
+                  <div class="text-sm">
+                    Simple 3D Animated Background that I learnt from Chris Course on Youtube.
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <!--This is an example container-->
+            <!-- <a
+              class="space-y-2 justify-center p-2 rounded-xl bg-gray-200 dark:bg-gray-500 flex-col"
+              href="#"
+            >
+              <video autoplay loop src="#"></video>
+              <div class="flex justify-between mt-2">
+                <div class="flex-col p-6">
+                  <div class="text-2xl">Typing Text</div>
+                  <div class="text-sm">
+                    Acts as though you are typing out the sentence.
+                  </div>
+                </div>
+              </div>
+            </a> -->
+
+          </div>
+        </div>
+      </div>
+      <a href="" class="m-6 px-6 py-3 bg-white text-black rounded-xl">
+        Back to Top
+      </a>
+      <hr class="mt-10 border-2" />
+      <footer class="pb-8 m-6 snap-end">
+        <small class="text-gray-800 dark:text-gray-300">
+          <p>This website is built with HTML, JavaScript and Tailwind CSS.</p>
+          © Ng Yu Zhe. All Rights Reserved.
+        </small>
+      </footer>
+    </div>
+  </body>
+</html>
